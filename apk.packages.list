@@ -6,5 +6,6 @@ bash
 bash-doc
 make
 gcc
+g++
 musl-dev
 nodejs

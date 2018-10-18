@@ -46,6 +46,8 @@ ENV SLAVE_OS Linux
 # Upgrade Bundler
 RUN gem install bundler -v 1.16.1
 
+ENV BUNDLER_VERSION 1.16.1
+
 ADD start.sh /
 RUN chmod 777 /start.sh
 

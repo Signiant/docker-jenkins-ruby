@@ -44,7 +44,7 @@ ENV SLAVE_ID RUBY_NODE
 ENV SLAVE_OS Linux
 
 # Upgrade Bundler
-RUN gem install bundler -v 1.16.0
+RUN gem install bundler -v 1.16.1
 
 ADD start.sh /
 RUN chmod 777 /start.sh

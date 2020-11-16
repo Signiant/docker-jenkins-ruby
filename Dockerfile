@@ -1,4 +1,4 @@
-FROM ruby:2.3.6-alpine
+FROM ruby:2.6.3-alpine
 MAINTAINER devops@signiant.com
 
 # Add our bldmgr user
